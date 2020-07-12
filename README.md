@@ -1,5 +1,5 @@
 # AMTA-Net
-Asymmetric Multi-Task Attention Network for Prostate Bed Segmentation in CT Images
+## Asymmetric Multi-Task Attention Network for Prostate Bed Segmentation in CT Images.
 This is a python (PyTorch) implementation of the **Asymmetric Multi-Task Attention Network** for prostate bed segmentation in CT images proposed in our paper [**Asymmetrical Multi-Task Attention U-Net for the Segmentation of Prostate Bed in CT Image**] accepted by **MICCAI 2020**.
 
 <img src="./fig1.png"/>
