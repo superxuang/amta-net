@@ -1,11 +1,21 @@
 # AMTA-Net
-## Asymmetric Multi-Task Attention Network for Prostate Bed Segmentation in CT Images.
-This is a python (PyTorch) implementation of the **Asymmetric Multi-Task Attention Network** for prostate bed segmentation in CT images proposed in our paper [**Asymmetrical Multi-Task Attention U-Net for the Segmentation of Prostate Bed in CT Image**] accepted by **MICCAI 2020**.
+This is a python (PyTorch) implementation of the **Asymmetric Multi-Task Attention U-Net** for prostate bed segmentation in CT images. This method is proposed in our paper [**Asymmetrical Multi-Task Attention U-Net for the Segmentation of Prostate Bed in CT Image**] accepted by **MICCAI 2020**.
 
 <img src="./fig1.png"/>
-<img src="./fig2.png"/>
 
 This code has been tested and passed on `Ubuntu 16.04`.
+
+## Citation
+
+Please cite our paper if it is useful for your research:
+
+    @inproceedings{xu2020amtanet, 
+      title = {Asymmetrical Multi-Task Attention U-Net for the Segmentation of Prostate Bed in CT Image},
+      author = {Xu, Xuanang and Lian, Chunfeng and Wang, Shuai and Wang, Andrew and Royce, Trevor and Chen, Ronald and Lian, Jun and Shen, Dinggang},
+      booktitle={International Conference on Medical Image Computing and Computer-Assisted Intervention},
+      year = {2020},
+      organization={Springer}
+    }
 
 ## How to use
 ### Prepare data
@@ -53,7 +63,3 @@ The dataset folder is organized in the following way:
     |   └── caseXXX.nii.gz
     └── trained_models # output folder storing trained model files and predicted masks
 ```
-
-## Citation
-
-Please cite our paper if it is useful for your research:
