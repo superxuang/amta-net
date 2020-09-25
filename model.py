@@ -11,10 +11,10 @@ class double_conv(nn.Module):
         super(double_conv, self).__init__()
         self.conv = nn.Sequential(
             nn.Conv2d(in_ch, out_ch, 3, padding=1),
-            nn.BatchNorm2d(out_ch, track_running_stats=False),
+            nn.BatchNorm2d(out_ch),
             nn.ReLU(inplace=True),
             nn.Conv2d(out_ch, out_ch, 3, padding=1),
-            nn.BatchNorm2d(out_ch, track_running_stats=False),
+            nn.BatchNorm2d(out_ch),
             nn.ReLU(inplace=True)
         )
 
@@ -81,15 +81,15 @@ class att_module(nn.Module):
         super(att_module, self).__init__()
         self.att_conv = nn.Sequential(
             nn.Conv2d(in_channels=in1_ch + in2_ch, out_channels=in1_ch + in2_ch, kernel_size=1, padding=0),
-            nn.BatchNorm2d(in1_ch + in2_ch, track_running_stats=False),
+            nn.BatchNorm2d(in1_ch + in2_ch),
             nn.ReLU(inplace=True),
             nn.Conv2d(in_channels=in1_ch + in2_ch, out_channels=in1_ch + in2_ch, kernel_size=1, padding=0),
-            nn.BatchNorm2d(in1_ch + in2_ch, track_running_stats=False),
+            nn.BatchNorm2d(in1_ch + in2_ch),
             nn.Sigmoid()
         )
         self.conv = nn.Sequential(
             nn.Conv2d(in_channels=in1_ch + in2_ch, out_channels=out_ch, kernel_size=3, padding=1),
-            nn.BatchNorm2d(num_features=out_ch, track_running_stats=False),
+            nn.BatchNorm2d(num_features=out_ch),
             nn.ReLU(inplace=True)
         )
         self.downsample = downsample
