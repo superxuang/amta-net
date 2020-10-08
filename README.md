@@ -12,5 +12,6 @@ Please cite our paper if it is useful for your research:
       author = {Xu, Xuanang and Lian, Chunfeng and Wang, Shuai and Wang, Andrew and Royce, Trevor and Chen, Ronald and Lian, Jun and Shen, Dinggang},
       booktitle={International Conference on Medical Image Computing and Computer-Assisted Intervention},
       year = {2020},
+      pages = {470--479},
       organization={Springer}
     }
