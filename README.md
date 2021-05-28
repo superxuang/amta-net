@@ -8,9 +8,6 @@ This is a python (PyTorch) implementation of **Asymmetrical Multi-Task Attention
 <img src="./fig2.png"/>
 
 ## Citation
-
-Please cite our paper if it is helpful to your research:
-
     @inproceedings{Xu2020PBSeg, 
       title = {Asymmetrical Multi-Task Attention U-Net for the Segmentation of Prostate Bed in CT Image},
       author = {Xuanang Xu and Chunfeng Lian and Shuai Wang and Andrew Z. Wang and Trevor J. Royce and Ronald C. Chen and Jun Lian and Dinggang Shen},
