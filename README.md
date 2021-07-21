@@ -21,7 +21,6 @@ This is a python (PyTorch) implementation of **Asymmetrical Multi-Task Attention
       title = {Asymmetric multi-task attention network for prostate bed segmentation in computed tomography images},
       author = {Xuanang Xu and Chunfeng Lian and Shuai Wang and Tong Zhu and Ronald C. Chen and Andrew Z. Wang and Trevor J. Royce and Pew-Thian Yap and Dinggang Shen and Jun Lian},
       year = {2021},
-      month = {may},
       publisher = {Elsevier},
       pages = {102116},
       journal = {Medical Image Analysis}
