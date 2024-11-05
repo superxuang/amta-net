@@ -25,3 +25,7 @@ This is a python (PyTorch) implementation of **Asymmetrical Multi-Task Attention
       pages = {102116},
       journal = {Medical Image Analysis}
     }
+    
+## Contact
+You are welcome to contact us:  
+  - [xux12@rpi.edu](mailto:xux12@rpi.edu) ([Dr. Xuanang Xu](https://superxuang.github.io/))
